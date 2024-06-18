@@ -4,12 +4,82 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Statistics Table</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        table {
+            width: 80%;
+            border-collapse: collapse;
+            margin: 20px auto;
+            border: 2px solid #333;
+            background-color: #f9f9f9;
+        }
+        thead {
+            background-color: #333;
+            color: #fff;
+        }
+        th, td {
+            padding: 10px;
+            text-align: center;
+            border: 1px solid #ddd;
+        }
+        tbody tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        tbody tr:hover {
+            background-color: #e9e9e9;
+        }
+        th {
+            background-color: #666;
+            color: #fff;
+        }
+    </style>
 </head>
 <body>
     <!-- add table here -->
-
-        
+    <table>
+        <thead>
+            <tr>
+                <th>Player</th>
+                <th>Games Played</th>
+                <th>Points</th>
+                <th>Assists</th>
+                <th>Rebounds</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>John Doe</td>
+                <td>30</td>
+                <td>1200</td>
+                <td>300</td>
+                <td>200</td>
+            </tr>
+            <tr>
+                <td>Jane Smith</td>
+                <td>28</td>
+                <td>1100</td>
+                <td>350</td>
+                <td>180</td>
+            </tr>
+            <tr>
+                <td>Mike Brown</td>
+                <td>32</td>
+                <td>1300</td>
+                <td>400</td>
+                <td>220</td>
+            </tr>
+            <tr>
+                <td>Emily White</td>
+                <td>25</td>
+                <td>1000</td>
+                <td>280</td>
+                <td>160</td>
+            </tr>
+        </tbody>
+    </table>
 </body>
 </html>
